@@ -89,7 +89,7 @@ function Page8(props) {
       </div>
       <div className="page8_text_container">
         <div className="card_container">
-        <form>
+        <form autoComplete="off">
           <div className="email_container">
             <div>
               <div className="full_width" style={{ marginBottom: "5px" }}>
@@ -113,13 +113,14 @@ function Page8(props) {
                     Email <span className="compulsory_icon">*</span>
                   </div>
                   <input
+                  autoComplete="off"
                     type="email"
                     className="input_style"
                     name="email"
                     placeholder="Ex. mail@website.com"
                     onChange={emailHandleChange}
                     value={emailValue}
-                    autoComplete="off"
+                    
                   />
                 </div>
               </div>
@@ -160,6 +161,7 @@ function Page8(props) {
                   <div className="input_label">
                     password<span className="compulsory_icon">*</span>
                   </div>
+                  <input type="text" style={{display:"none"}}></input>
                   <input
                     type="password"
                     className="input_style"
@@ -167,7 +169,7 @@ function Page8(props) {
                     placeholder="Ex. Operational Head"
                     onChange={passwordHandleChange}
                     value={password}
-                    autoComplete="off"
+                    autoComplete="new-password"
                   />
                 </div>
               </div>
@@ -176,6 +178,7 @@ function Page8(props) {
                   <div className="input_label">
                     confirm password <span className="compulsory_icon">*</span>
                   </div>
+                  <input type="text" style={{display:"none"}}></input>
                   <input
                     type="password"
                     className="input_style"
@@ -188,8 +191,9 @@ function Page8(props) {
                 </div>
               </div>
               <a 
+                 href={"https://calendly.com/voosh/30min?month=2023-01"} 
               onClick={addUser}
-              href={"anc"} className="button_container_style">
+              className="button_container_style">
                 <div>
                   <span className="text_button">Book Demo</span>
                 </div>

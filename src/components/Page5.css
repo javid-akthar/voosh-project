@@ -21,11 +21,11 @@
     padding: 10vw 0 2vw;
 }
 
-@media (min-width: 992px)
+@media (min-width: 992px){
 .page5_text_container {
     padding: 0 2vw 0 0;
     width: 500px;
-}
+}}
 
 .page_title_container {
     align-items: center;

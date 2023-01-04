@@ -1,6 +1,7 @@
 import React from 'react';
 import './Page3.css'
 import CentralisedDashboard from '../images/Centralised_Dashboard.webp'
+import FreeAccess from '../images/free_access.webp'
 
 function Page3(props) {
     return (
@@ -9,7 +10,7 @@ function Page3(props) {
             <div className="page_title_container"></div>
             <div className="page_title_icon_container">
               <img
-                src="./Voosh_files/free_access.8ce7ed5e6bacd50afa8f.webp"
+                src={FreeAccess}
                 className="page_title_icon"
                 alt={"page_title_icon"}
               />
