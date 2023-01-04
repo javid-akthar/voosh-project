@@ -1,0 +1,128 @@
+.aboutUs_container {
+    background-color: #f6f6f6;
+    width: 100vw;
+}
+
+.about_us_details_component {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10vw 10vw 0;
+}
+
+@media (min-width: 992px){
+.about_us_details_component {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw 10vw 0;
+}}
+
+@media (min-width: 992px){
+.about_us_text_container {
+    max-width: 40vw;
+}}
+
+.aboutus_title_red {
+    border-left: 10px solid #ff7043;
+    color: #000;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5vw;
+    padding-left: 3vw;
+}
+
+@media (min-width: 992px){
+ .aboutus_title_red {
+    color: #000;
+    font-size: 1.9vw;
+    margin-bottom: 2vw;
+    padding-left: 1.5vw;
+}}
+
+.subtext {
+    color: #000;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@media (min-width: 992px){
+.subtext {
+    font-size: 1vw;
+}}
+
+.brand_name {
+    font-weight: 600;
+}
+
+.about_us_bg {
+    margin-top: 5vw;
+    object-fit: contain;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+ .about_us_bg {
+    margin: 0;
+    object-fit: contain;
+    width: 30vw;
+}}
+
+.about_us_investor {
+    padding: 15vw 10vw 10vw;
+}
+
+@media (min-width: 992px){
+ .about_us_investor {
+    padding: 4vw 10vw;
+}}
+
+.aboutus_title_blue {
+    border-left: 15px solid #2d66f5;
+    color: #000;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 5vw;
+    padding-left: 5vw;
+}
+
+@media (min-width: 992px){
+ .aboutus_title_blue {
+    border-left: 15px solid #2d66f5;
+    color: #000;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 2vw;
+    padding-left: 1.5vw;
+}}
+
+.brands_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+}
+
+@media (min-width: 992px){
+.brands_container {
+    display: flex;
+    justify-content: center;
+}}
+
+.brand_image {
+    margin: 1vw;
+    object-fit: contain;
+    width: 20vw;
+}
+
+@media (min-width: 992px){
+.brand_image {
+    margin: 1vw;
+    object-fit: contain;
+    width: 8vw;
+}}

@@ -1,0 +1,115 @@
+.revenue-container {
+    padding: 45vw 0 5vw;
+    width: 100vw;
+}
+
+@media (min-width: 992px){
+.revenue-container {
+    padding: 19vw 0 5vw;
+}
+}
+
+.revenue-inner-container {
+    background: #161926;
+    border-radius: 10px;
+    box-shadow: 50px 50px 50px rgb(0 0 0 / 15%);
+    margin: 0 5vw;
+    padding: 5vw;
+}
+
+.revenue-title {
+    color: #fff;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (min-width: 992px){
+.revenue-title {
+    font-size: 2.8vw;
+}
+}
+
+.revenue-subtext {
+    color: #fff;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    margin: 5vw 0 16vw;
+    text-align: center;
+}
+
+@media (min-width: 992px)
+{.revenue-subtext {
+    font-size: 2vw;
+    margin: 2vw 0 8vw;
+}}
+
+@media (min-width: 992px){
+.revenue-states-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}}
+
+.revenue-states-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10vw 0;
+}
+
+@media (min-width: 992px){
+.revenue-states-box {
+    flex-direction: column;
+    margin: 0;
+}}
+
+.revenue-state-value {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#ff7043 8%,#2d66f5 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 18vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+.revenue-state-value {
+    font-size: 8vw;
+}}
+
+.revenue-state-subtext {
+    color: hsla(0,0%,100%,.5);
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    margin: 3vw 0;
+}
+
+@media (min-width: 992px){
+.revenue-state-subtext {
+    font-size: 1.5vw;
+    margin: 1vw 0;
+}}
+
+.revenue-state-title {
+    color: #fff;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+}
+@media (min-width: 992px){
+.revenue-state-title {
+    font-size: 2vw;
+}}
+.revenue-up-arrow {
+    bottom: 5vw;
+    left: 0;
+    position: absolute;
+    width: 20vw;
+    z-index: -1;
+}

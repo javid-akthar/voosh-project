@@ -10,17 +10,11 @@
   z-index: 1;
 }
 
-.voosh_logo {
-  height: 8vw;
-}
+
 
 .navabr_div {
   position: absolute;
   display: block;
 }
 
-@media (min-width: 992px) {
-  .navbar_container .voosh_logo {
-    height: 4vw;
-  }
-}
+

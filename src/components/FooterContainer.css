@@ -1,0 +1,156 @@
+.footer_container {
+    align-items: center;
+    background-color: #f1f4ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10vw;
+}
+
+@media (min-width: 992px){
+.footer_container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 6vw 10vw;
+}}
+
+@media (min-width: 992px){
+ .left_container {
+    margin-right: 4vw;
+    width: 35vw;
+}}
+
+.voosh_logo {
+    height: 20vw;
+    object-fit: contain;
+}
+
+@media (min-width: 992px){
+ .voosh_logo {
+    height: 6vw;
+}}
+
+.description {
+    color: #23283b;
+    font-size: 4.3vw;
+}
+
+@media (min-width: 992px){
+  .description {
+    color: #23283b;
+    font-size: 1vw;
+}}
+
+.right_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vw;
+    width: 100%;
+}
+
+@media (min-width: 992px){
+ .right_container {
+    margin-top: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}}
+
+.heading {
+    color: #23283b;
+    font-size: 8vw;
+    font-weight: 700;
+}
+
+@media (min-width: 992px){
+ .heading {
+    font-size: 2vw;
+}}
+
+.subheading {
+    color: #23283b;
+    cursor: pointer;
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin-top: 4vw;
+    text-decoration: underline;
+}
+
+
+ .subheading {
+    color: #23283b;
+    cursor: pointer;
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin-top: 4vw;
+    text-decoration: underline;
+}
+
+@media (min-width: 992px){
+    .subheading {
+        font-size: 1vw;
+        margin-top: 1vw;
+    }}
+
+    
+
+ .social_container {
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 6vw;
+} 
+
+@media (min-width: 992px){
+ .social_container {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2vw;
+}}
+
+.social_icon {
+    cursor: pointer;
+    height: 10vw;
+    margin-right: 4vw;
+    width: 10vw;
+}
+
+
+@media (min-width: 992px){
+  .social_icon {
+    height: 3vw;
+    margin-right: 1vw;
+    object-fit: contain;
+    width: 3vw;
+}}
+
+.signature_container {
+    bottom: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 3vw;
+}
+
+@media (min-width: 992px){
+ .signature_container {
+    bottom: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 3vw;
+}}
+
+.signature_icon {
+    height: 10vw;
+    object-fit: contain;
+    width: 15vw;
+}
+
+@media (min-width: 992px){
+ .signature_icon {
+    height: 3.5vw;
+    object-fit: contain;
+}}
+

@@ -11,11 +11,26 @@ import page15 from '../images/page1_5.webp'
 import page16 from '../images/page1_6.webp'
 
 import classes from './Page1.module.css'
-
+import Page1Img from './UI/Page1/Page1Img'
+import Page1TitleContainerContent from './UI/Page1/Page1TitleContainerContent'
+import Page1TitleContainer from './UI/Page1/Page1TitleContainer'
+import Title from './UI/Page1/Title';
+import SubTitle from './UI/Page1/Subtitle'
+import ButtonArrowContainer from './UI/Page1/ButtonArrowContainer'
+import MyProfileContainer from './UI/Page1/MyProfileContainer'
+import ThreeLines from './UI/Page1/ThreeLines'
+import MyProfileIcon from './UI/Page1/MyProfileIcon'
+import Page1OutletContainer from './UI/Page1/Page1OutletContainer'
+import Page1OutletIcon1 from './UI/Page1/Page1OutletIcon1'
+import Page1OutletIcon2 from './UI/Page1/Page1OutletIcon2';
+import Page1OutletIcon3 from './UI/Page1/Page1OutletIcon3';
+import Page1OutletIcon4 from './UI/Page1/Page1OutletIcon4';
+import Page1OutletIcon5 from './UI/Page1/Page1OutletIcon5';
+import Page1OutletIcon6 from './UI/Page1/Page1OutletIcon6';
 
 function Page1(props) {
     return (
-        <div className={classes.page1_container} id="page1">
+        <Page1Img  id="page1">
         <div className={classes.landing_bg_container}>
           <img
             src= {landingBg}
@@ -23,20 +38,20 @@ function Page1(props) {
             alt = "landing_bg_icon" 
           />
         </div>
-         <div className={classes.page1_title_container_content}>
-          <div className={classes.page1_title_container}>
-            <div className={classes.title}>
+         <Page1TitleContainerContent >
+          <Page1TitleContainer >
+            <Title >
               Consolidate your restaurants' insights in one place. Unlock
               growth.
-            </div>
-            <div className={classes.subtitle}>
+            </Title>
+            <SubTitle>
               Your one stop solution to view mission-critical data and
               insights from all your locations in one place.
-            </div>
-            <div className={classes.button_arrow_container}>
+            </SubTitle>
+            <ButtonArrowContainer>
               <div className={classes.button_container_style}>
                 <a
-                  href="https://voosh.in/#Waitinglist"
+                  href="#Waitinglist"
                   className={classes.button_container}
                   ><div><span className={classes.text_button}>Book Demo</span></div></a
                 >
@@ -48,49 +63,42 @@ function Page1(props) {
                   alt = "arrow_img"
                 />
               </div>
-            </div>
-          </div>
+            </ButtonArrowContainer>
+          </Page1TitleContainer>
          
-          <div className={classes.my_profile_container}>
-            <img
+          <MyProfileContainer>
+            <ThreeLines
               src={threeLines}
-              className={classes.three_lines}
               alt="three_lines"
-            /><img
+            />
+            <MyProfileIcon
               src={myProfile}
-              className={classes.my_profile_icon}
               alt= "profile_icon"
             />
-          </div>
-          <div className={classes.page1_outlet_container}>
-            <img
+          </MyProfileContainer>
+          <Page1OutletContainer>
+            <Page1OutletIcon1
               src={page11}
-              className={classes.page1_outlet_icon1}
               alt = "page1-outlet-icon1"
-            /><img
+            /><Page1OutletIcon2
               src={page12}
-              className={classes.page1_outlet_icon2}
               alt = "page1-outlet-icon2"
-            /><img
+            /><Page1OutletIcon3
               src={page13}
-              className={classes.page1_outlet_icon3}
               alt = "page1-outlet-icon3"
-            /><img
+            /><Page1OutletIcon4
               src={page14}
-              className={classes.page1_outlet_icon4}
               alt = "page1-outlet-icon4"
-            /><img
+            /><Page1OutletIcon5
               src={page15}
-              className={classes.page1_outlet_icon5}
               alt = "page1-outlet-icon5"
-            /><img
+            /><Page1OutletIcon6
               src={page16}
-              className={classes.page1_outlet_icon6}
               alt = "page1-outlet-icon6"
             />
-          </div>
-        </div> 
-      </div>
+          </Page1OutletContainer>
+        </Page1TitleContainerContent> 
+      </Page1Img>
     );
 }
 

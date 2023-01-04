@@ -1,42 +1,42 @@
 import React from 'react';
 import revenueUpArrow from '../images/revenue-up-arrow.webp'
-import classes from './Revenue.module.css';
+import './Revenue.css';
 
 function Revenue(props) {
     return (
-        <div className={classes.revenue_container}>
-          <div className={classes.revenue_inner_container}>
-            <div className={classes.revenue_title}>
+        <div className="revenue-container">
+          <div className="revenue-inner-container">
+            <div className="revenue-title">
               Since partnering with Voosh, restaurant partners have seen an
               average increase of 10% in revenues
             </div>
-            <div className={classes.revenue_subtext}>Along with:</div>
+            <div className="revenue-subtext">Along with:</div>
             <div className="revenue-states-container">
-              <div className={classes.revenue_states_box}>
-                <div className={classes.revenue_state_value}>10%</div>
-                <div className={classes.revenue_state_subtext}>Increase in revenue</div>
-                <div className={classes.revenue_state_title}>Better Operations</div>
+              <div className="revenue-states-box">
+                <div className="revenue-state-value">10%</div>
+                <div className="revenue-state-subtext">Increase in revenue</div>
+                <div className="revenue-state-title">Better Operations</div>
               </div>
-              <div className={classes.revenue_states_box}>
-                <div className={classes.revenue_state_value}>0.5+</div>
-                <div className={classes.revenue_state_subtext}>
+              <div className="revenue-states-box">
+                <div className="revenue-state-value">0.5+</div>
+                <div className="revenue-state-subtext">
                   Increase in Customer ratings
                 </div>
-                <div className={classes.revenue_state_title}>Better CX</div>
+                <div className="revenue-state-title">Better CX</div>
               </div>
-              <div className={classes.revenue_states_box}>
-                <div className={classes.revenue_state_value}>5%</div>
-                <div className={classes.revenue_state_subtext}>
+              <div className="revenue-states-box">
+                <div className="revenue-state-value">5%</div>
+                <div className="revenue-state-subtext">
                   Extra payout by DD and UE
                 </div>
-                <div className={classes.revenue_state_title}>Better Financial</div>
+                <div className="revenue-state-title">Better Financial</div>
               </div>
             </div>
-            <img
-              src={revenueUpArrow}
-              className={classes.revenue_up_arrow}
-              alt ={"revenue-up-arrow"}
-            />
+             <img
+               src={revenueUpArrow}
+             className="revenue-up-arrow"
+               alt ={"revenue-u-arrow"}
+             />
           </div>
         </div>
     );

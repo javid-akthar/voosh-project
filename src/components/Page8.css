@@ -1,0 +1,158 @@
+
+
+.page8_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+}
+
+@media (min-width: 992px){
+    .page8_container {
+        flex-direction: row;
+    }}
+
+.page8_container_text {
+    width: 50vw;
+}
+
+@media (min-width: 992px){
+ .page8_container_text {
+    width: 30vw;
+}}
+
+/* @media (max-width: 992px)
+{
+   .title {
+        font-size: 5vw;
+    }
+} */
+
+
+.page8_title {
+    color: #fff;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card_container {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 70vw;
+}
+
+@media (min-width: 992px){
+ .card_container {
+    width: 30vw;
+}}
+
+/* @media (min-width: 992px){
+.page8_container_text {
+    width: 30vw;
+}} */
+
+/* @media (min-width: 992px){
+ .page8_container_text {
+    width: 30vw;
+}} */
+
+.email_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65vw;
+}
+
+@media (min-width: 992px){
+.email_container{
+    width: 27.5vw;
+}}
+
+@media (min-width: 992px){
+.page8_container_text {
+    width: 30vw;
+}}
+
+.input_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_label {
+    color: #000;
+    font-size: 14px;
+}
+
+.compulsory_icon {
+    color: #ee3832;
+}
+
+.input_style {
+    
+
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+    background-color: #eff0f3;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-size: 14px;
+    height: 40px;
+    margin: 5px 0 15px;
+    padding: 0 10px;
+}
+
+.button_container_style {
+    align-items: center;
+    background-color: #2d66f5;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.text_button {
+    color: #fff;
+    font-weight: 600;
+}
+
+.waiting_list {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}

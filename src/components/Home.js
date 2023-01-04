@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUsPage from "./AboutUsPage";
+import FooterContainer from "./FooterContainer";
 import './Home.css'
 import Navbar from "./Navbar";
 import OutletPage from "./OutletPage";
@@ -26,6 +27,7 @@ function Home(props) {
       <Page6 />
       <AboutUsPage />
       <Page8 />
+      <FooterContainer />
     </>
   );
 }
